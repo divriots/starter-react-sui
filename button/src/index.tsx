@@ -1,1 +1,1 @@
-export { Button, ButtonDanger, ButtonOutline, ButtonPrimary, ButtonClose, ButtonGroup, ButtonTableList } from '@primer/components'
+export { Button, ButtonDanger, ButtonOutline, ButtonPrimary, ButtonClose, ButtonGroup, ButtonTableList, ButtonInvisible } from '@primer/components'

@@ -1,5 +1,4 @@
 import { mdx } from '@mdx-js/react';
-import { Playground } from '@divriots/dockit-react/playground';
 import {
   Button,
   ButtonDanger,
@@ -8,8 +7,9 @@ import {
   ButtonClose,
   ButtonGroup,
   ButtonTableList,
+  ButtonInvisible,
 } from '../index';
-import { Layout } from '~/mdx-layout-css';
+import { Layout } from '~/mdx-layout';
 export default Layout;
 
 # Button
@@ -22,7 +22,8 @@ export default Layout;
     ButtonPrimary,
     ButtonClose,
     ButtonGroup,
-    ButtonTableList
+    ButtonTableList,
+    ButtonInvisible
   }}
   code={`
 <Button>Button</Button>
@@ -38,4 +39,4 @@ export default Layout;
   <Button>Button</Button>
 </ButtonGroup>
 
-<ButtonTableList>Button Table List</ButtonTableList>`/>
+<ButtonTableList>Button Table List</ButtonTableList>`} />

@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Button,
   ButtonDanger,
@@ -6,8 +7,9 @@ import {
   ButtonClose,
   ButtonGroup,
   ButtonTableList,
+  ButtonInvisible,
 } from '../index';
-import { decorators } from '~/story-decorators';
+import { decorators } from '~/story-decorator';
 
 export default {
   decorators
