@@ -17,6 +17,12 @@
         ]
       ],
       [
+        "Components",
+        [
+          "button"
+        ]
+      ],
+      [
         "infrastructure",
         [
           "theme"
