@@ -4,7 +4,7 @@
     "menu": [
       "introduction",
       [
-        "Theme",
+        "theme",
         [
           "typography",
           "colors",
@@ -17,15 +17,25 @@
         ]
       ],
       [
-        "Components",
+        "theme-ui components",
         [
-          "button"
+          "button-theme-ui",
+          "button-styled-components"
         ]
       ],
       [
         "infrastructure",
         [
           "theme"
+        ]
+      ],
+      [
+        "layout",
+        [
+          "mdx-layout-theme-ui",
+          "mdx-layout-styled-components",
+          "story-decorator-theme-ui",
+          "story-decorator-styled-components"
         ]
       ]
     ]

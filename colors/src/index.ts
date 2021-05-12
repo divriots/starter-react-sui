@@ -1,5 +1,11 @@
 export const colors = {
   colors: {
+    text: '#000',
+    background: '#fff',
+    primary: '#07c',
+    secondary: '#30c',
+    muted: '#f6f6f6',
+    divriots: '#3b82f6',
     navy: '#000080',
     teal: '#008080',
     transparentTeal: '#00808080',
@@ -111,16 +117,5 @@ export const colors = {
     whitefade15: 'rgba(255, 255, 255, 0.15)',
     whitefade50: 'rgba(255, 255, 255, 0.50)',
     whitefade70: 'rgba(255, 255, 255, 0.70)',
-  },
-  colorSchemes: {
-    light: {
-      colors: {
-        btn: {
-          primary: {
-            bg: '#3b82f680',
-          },
-        },
-      },
-    },
   },
 };
