@@ -112,4 +112,15 @@ export const colors = {
     whitefade50: 'rgba(255, 255, 255, 0.50)',
     whitefade70: 'rgba(255, 255, 255, 0.70)',
   },
+  colorSchemes: {
+    light: {
+      colors: {
+        btn: {
+          primary: {
+            bg: '#3b82f680',
+          },
+        },
+      },
+    },
+  },
 };
