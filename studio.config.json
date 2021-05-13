@@ -4,7 +4,21 @@
     "menu": [
       "introduction",
       [
-        "Theme",
+        "theme-ui",
+        [
+          "tui-button",
+          "tui-utils"
+        ]
+      ],
+      [
+        "styled-components",
+        [
+          "styled-button",
+          "styled-utils"
+        ]
+      ],
+      [
+        "theme",
         [
           "typography",
           "colors",
@@ -13,12 +27,7 @@
           "shadows",
           "radii",
           "border",
-          "z-index"
-        ]
-      ],
-      [
-        "infrastructure",
-        [
+          "z-index",
           "theme"
         ]
       ]
