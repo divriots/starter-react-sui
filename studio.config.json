@@ -4,6 +4,20 @@
     "menu": [
       "introduction",
       [
+        "theme-ui",
+        [
+          "tui-button",
+          "tui-utils"
+        ]
+      ],
+      [
+        "styled-components",
+        [
+          "styled-button",
+          "styled-utils"
+        ]
+      ],
+      [
         "theme",
         [
           "typography",
@@ -13,29 +27,8 @@
           "shadows",
           "radii",
           "border",
-          "z-index"
-        ]
-      ],
-      [
-        "theme-ui components",
-        [
-          "button-theme-ui",
-          "button-styled-components"
-        ]
-      ],
-      [
-        "infrastructure",
-        [
+          "z-index",
           "theme"
-        ]
-      ],
-      [
-        "layout",
-        [
-          "mdx-layout-theme-ui",
-          "mdx-layout-styled-components",
-          "story-decorator-theme-ui",
-          "story-decorator-styled-components"
         ]
       ]
     ]

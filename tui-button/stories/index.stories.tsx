@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../index';
-import { decorators } from '~/story-decorator-theme-ui';
+import { decorators } from '~/tui-utils';
 
 export default { decorators }
 
