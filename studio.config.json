@@ -2,7 +2,21 @@
   "packages": {
     "dir": "",
     "menu": [
-      "introduction",
+      "readme",
+      [
+        "tokens",
+        [
+          "typography",
+          "colors",
+          "space",
+          "sizes",
+          "shadows",
+          "radii",
+          "border",
+          "z-index",
+          "all"
+        ]
+      ],
       [
         "theme-ui",
         [
@@ -15,20 +29,6 @@
         [
           "styled-button",
           "styled-utils"
-        ]
-      ],
-      [
-        "theme",
-        [
-          "typography",
-          "colors",
-          "space",
-          "sizes",
-          "shadows",
-          "radii",
-          "border",
-          "z-index",
-          "theme"
         ]
       ]
     ]
