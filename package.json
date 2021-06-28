@@ -6,9 +6,6 @@
 	"type": "module",
 	"homepage": "{{ homepage }}",
 	"scripts": {
-		"serve": "dsd-cli serve z99ptYZyvMOGDivUlP9u --open"
-	},
-	"devDependencies": {
-		"dsd-cli": "latest"
+		"serve": "npx backlight serve z99ptYZyvMOGDivUlP9u --open"
 	}
 }

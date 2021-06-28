@@ -30,6 +30,12 @@
           "styled-button",
           "styled-utils"
         ]
+      ],
+      [
+        "dockit",
+        [
+          "layout"
+        ]
       ]
     ]
   }
