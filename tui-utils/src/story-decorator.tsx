@@ -1,11 +1,14 @@
 import React from 'react';
 import { ThemeProvider } from 'theme-ui'
-import { theme } from '~/theme';
+import { themeWithVariants } from './variants';
 
-export const decorators = [
-  (Story) => (
-    <ThemeProvider theme={theme}>
-      <Story />
-    </ThemeProvider>
-  ),
-];
+export const layout = {
+  decorators: [
+    (Story) => (
+      <ThemeProvider theme={themeWithVariants}>
+        <Story />
+      </ThemeProvider>
+    ),
+  ],
+  parameters: { layout: "centered" }
+};

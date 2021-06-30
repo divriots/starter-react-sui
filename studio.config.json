@@ -2,7 +2,21 @@
   "packages": {
     "dir": "",
     "menu": [
-      "introduction",
+      "readme",
+      [
+        "tokens",
+        [
+          "typography",
+          "colors",
+          "space",
+          "sizes",
+          "shadows",
+          "radii",
+          "border",
+          "z-index",
+          "all"
+        ]
+      ],
       [
         "theme-ui",
         [
@@ -18,17 +32,9 @@
         ]
       ],
       [
-        "theme",
+        "dockit",
         [
-          "typography",
-          "colors",
-          "space",
-          "sizes",
-          "shadows",
-          "radii",
-          "border",
-          "z-index",
-          "theme"
+          "layout"
         ]
       ]
     ]

@@ -1,11 +1,11 @@
 import React from 'react';
-import { CssLayout } from '@divriots/dockit-react/mdx-layout-css';
+import { MdxLayout } from '~/layout';
 import { ThemeProvider } from 'theme-ui'
 
-import { theme } from '~/theme';
+import { themeWithVariants } from './variants';
 
 export const Layout = props => (
-  <ThemeProvider theme={theme}>
-    <CssLayout {...props} />
+  <ThemeProvider theme={themeWithVariants}>
+    <MdxLayout {...props} />
   </ThemeProvider >
 );
