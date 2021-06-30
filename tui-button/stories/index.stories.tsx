@@ -1,13 +1,9 @@
 import React from 'react';
 import { Button } from '../index';
-import { decorators } from '~/tui-utils';
+import { layout } from '~/tui-utils';
+export default layout;
 
-export default { decorators }
-
-export const buttons = () => (
-  <>
-    <Button mr={2}>Beep</Button>
-    <Button mr={2} bg="divriots">Boop</Button>
-    <Button mr={2} disabled>Disabled</Button>
-  </>
-);
+export const primary = () => <Button variant="primary">Primary</Button>;
+export const secondary = () => <Button variant="secondary">Secondary</Button>;
+export const disabled = () => <Button disabled>Disabled</Button>;
+export const secondary_disabled = () => <Button variant="secondary" disabled>Disabled</Button>;

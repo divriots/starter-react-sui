@@ -2,10 +2,10 @@ import React from 'react';
 import { MdxLayout } from '~/layout';
 import { ThemeProvider } from 'theme-ui'
 
-import { theme } from '~/all';
+import { themeWithVariants } from './variants';
 
 export const Layout = props => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={themeWithVariants}>
     <MdxLayout {...props} />
   </ThemeProvider >
 );

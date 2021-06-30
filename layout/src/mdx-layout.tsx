@@ -6,9 +6,7 @@ export const MdxLayout = ({ components = {}, onSwitch, ...rest }) => (
 	<MDXProvider components={{ ...components }}>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css/out/light.min.css" />
 		<CoreLayout logo={
-			<div style={{ fontWeight: 700, fontSize: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-				System UI
-			</div>
+			<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="180ps" />
 		}
 			{...rest} />
 	</MDXProvider>

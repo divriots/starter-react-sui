@@ -13,19 +13,10 @@ export default Layout;
 
 ```tsx
 import { Button } from '../index';
-import { theme } from '~/all';
 
-export const Buttons = () => (
-  <ThemeProvider theme={theme}>
-    <Button mr={2}>Beep</Button>
-    <Button mr={2} bg="divriots">
-      Boop
-    </Button>
-    <Button mr={2} disabled>
-      Disabled
-    </Button>
-  </ThemeProvider>
-);
+<Button variant="primary">Primary</Button>
+<Button variant="secondary">Secondary</Button>
+<Button disabled>Disabled</Button>
 ```
 
 ## Example
@@ -33,9 +24,9 @@ export const Buttons = () => (
 <Playground
   scope={{ Button }}
   code={`
-<Button mr={2}>Beep</Button>
-<Button mr={2} bg="divriots">Boop</Button>
-<Button mr={2} disabled>Disabled</Button>
+<Button variant="primary" mr="2">Primary</Button>
+<Button variant="secondary" mr="2">Secondary</Button>
+<Button disabled>Disabled</Button>
   `}
 />
 
