@@ -9,8 +9,8 @@ export const borderWidth = () => (
     theme={theme}
     showcaseKey="borderWidth"
     componentProps={{
-      width: '8rem',
-      height: '8rem',
+      width: '6rem',
+      height: '6rem',
       boxShadow: '0 12px 48px rgba(149, 157, 165, 0.3)',
       borderColor: '#22863a',
       borderStyle: 'solid',
@@ -22,8 +22,8 @@ export const borderStyle = () => (
     theme={theme}
     showcaseKey="borderStyle"
     componentProps={{
-      width: '8rem',
-      height: '8rem',
+      width: '6rem',
+      height: '6rem',
       boxShadow: '0 12px 48px rgba(149, 157, 165, 0.3)',
       borderColor: '#22863a',
     }}
@@ -35,8 +35,8 @@ export const borderColor = () => (
     theme={theme}
     showcaseKey="borderColor"
     componentProps={{
-      width: '8rem',
-      height: '8rem',
+      width: '6rem',
+      height: '6rem',
       boxShadow: '0 12px 48px rgba(149, 157, 165, 0.3)',
       borderRadius: 4,
       borderStyle: 'solid',
@@ -50,8 +50,8 @@ export const border = () => (
     theme={theme}
     showcaseKey="border"
     componentProps={{
-      width: '8rem',
-      height: '8rem',
+      width: '6rem',
+      height: '6rem',
       boxShadow: 'large',
     }}
   />)
