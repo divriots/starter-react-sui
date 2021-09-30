@@ -8,15 +8,15 @@ export default MdxLayout;
 
 [![Github Repo](https://img.shields.io/github/last-commit/divriots/starter-react-sui)](https://github.com/divriots/starter-react-sui)
 
-# system-UI Tech Sample _by_ ‹div›RIOTS
+# System UI Tech Sample _by_ ‹div›RIOTS
 
-This is a _Technology Sample_ you can rely on to build your own Design System, based on React and a [System-UI theme](https://system-ui.com/theme).
+This is a _Technology Sample_ you can rely on to build your own Design System, based on React and a [System UI theme](https://system-ui.com/theme).
 
 **Disclaimer**: _Technology Samples_ aren't comprehensive _Design Systems_ but showcases a given technology so you free to build you own solution upon it.
 
 ## Architecture
 
-This _tech sample_ uses [React]() and [JSX]() to implement its components with [TypeScript](). The Tokens are following the [system-UI theme specification](), and are consumed in two flavors: [theme-ui]() and [styled-components]().
+This _tech sample_ uses [React](https://reactjs.org/) and [JSX](https://reactjs.org/docs/introducing-jsx.html) to implement its components with [TypeScript](https://www.typescriptlang.org/). The Tokens are following the [System UI theme specification](https://system-ui.com/theme), and are consumed in two flavors: [Theme UI](https://theme-ui.com/) and [styled-components](https://styled-components.com/).
 
 ### Tokens
 
@@ -31,7 +31,7 @@ The Tokens are separated in different components:
 - `border`: borders definitions
 - `z-index`: z-axe indices
 
-The [system-UI tokens specification]() allows you to define scales (like `font-sizes`, `radius`, _etc_) in arrays. You can also refer to previously declared values as _aliases_.
+The [System UI tokens specification](https://system-ui.com/theme) allows you to define scales (like `font-sizes`, `radius`, _etc_) in arrays. You can also refer to previously declared values as _aliases_.
 
 Your `tokens` should be organized by following the _key reference_ in the specification:
 
@@ -65,7 +65,7 @@ import { theme } from '~/all';
 
 This _tech sample_ exposes components in two flavor. They all use the same theme tokens imported as above, so your React components and your theme are not hard-linked together, and you can rely on the theme abstraction you're the most comfortable with.
 
-[Theme-UI]() and [styled-components]() exposes a `<ThemeProvider />` JSX wrapper that take as theme argument a system-ui theme tokens definition:
+Both [Theme UI](https://theme-ui.com/#style-your-ui) and [styled-components](https://styled-components.com/docs/api#themeprovider) exposes a `<ThemeProvider />` JSX wrapper that take as theme argument a system-ui theme tokens definition:
 
 ```jsx
 <ThemeProvider theme={theme}>
@@ -93,9 +93,9 @@ To add new theme-ui based components, you have to create a component with two fi
 
 Your component's `variants.ts` file have to be loaded in the `tui-utils/variants.ts` file to be used by the wrapped theme.
 
-### Styled-components
+### styled-components
 
-On the contrary of _theme-ui_, _styled-component_ doesn't declares variations at theme level, but let you customize your components' styles directly by using the theme definitions:
+On the contrary of _Theme UI_, _styled-component_ doesn't declares variations at theme level, but let you customize your components' styles directly by using the theme definitions:
 
 ```jsx
 import styled from 'styled-components';
@@ -134,6 +134,6 @@ export const MyComponent = () => {
 
 ## Links
 
-- [system-ui](https://system-ui.com/)
-- [theme-ui](https://theme-ui.com/)
+- [System UI](https://system-ui.com/)
+- [Theme UI](https://theme-ui.com/)
 - [styled-components](https://styled-components.com/)
