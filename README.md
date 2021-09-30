@@ -1,6 +1,5 @@
-import { mdx } from '@mdx-js/react';
-import { MdxLayout } from '~/layout';
-export default MdxLayout;
+[![backlight.dev](https://img.shields.io/badge/Open%20in-Backlight.dev%20editor-%23f8c307)](https://backlight.dev/preview/z99ptYZyvMOGDivUlP9u)
+[![Github Repo](https://img.shields.io/github/last-commit/divriots/starter-react-sui)](https://github.com/divriots/starter-react-sui)
 
 # System UI Tech Sample _by_ ‹div›RIOTS
 
