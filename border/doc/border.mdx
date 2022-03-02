@@ -1,10 +1,27 @@
 import { mdx } from '@mdx-js/react';
 import { theme } from '~/all';
+import { border } from '~/border';
 import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
 import { MdxLayout } from '~/layout';
 export default MdxLayout;
 
-# Border Width
+export const BorderDefinition = () => (
+  <pre>
+    <code>{JSON.stringify(border, null, 2)}</code>
+  </pre>
+);
+
+# Border
+
+Named values defined as a plain object or arrays of values.
+
+## Definition
+
+<BorderDefinition />
+
+## Showcases
+
+### Border Width
 
 <SystemUIShowcases
   theme={theme}
@@ -18,7 +35,7 @@ export default MdxLayout;
   }}
 />
 
-# Border Style
+### Border Style
 
 <SystemUIShowcases
   theme={theme}
@@ -31,7 +48,7 @@ export default MdxLayout;
   }}
 />
 
-# Border Color
+### Border Color
 
 <SystemUIShowcases
   theme={theme}
@@ -46,7 +63,7 @@ export default MdxLayout;
   }}
 />
 
-# Border
+### Border
 
 <SystemUIShowcases
   theme={theme}
