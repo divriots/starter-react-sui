@@ -16,7 +16,7 @@
     "theme-ui": "^0.10.0"
   },
   "devDependencies": {
-    "@divriots/dockit-react": "^0.0.79",
+    "@divriots/dockit-react": "^0.0.84",
     "@mdx-js/react": "^1.6.22",
     "@types/styled-components": "^5.1.10",
     "deepmerge": "^4.2.2"
